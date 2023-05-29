@@ -1,0 +1,45 @@
+body {
+    background-color: #ce93d8;
+    } 
+    .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-c5tE9E407d0GeZdbULTxYVX_ZcE5-EB3Q&usqp=CAU");
+           background-size:cover;
+             background-blend-mode:light;
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    input[type="submit"] {
+    background-color: #9c27b0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #ab47bc;
+    }
